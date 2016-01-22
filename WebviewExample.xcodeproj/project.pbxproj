@@ -14,6 +14,11 @@
 		1F2A57BF1C50C127009C810B /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1F2A57BD1C50C127009C810B /* LaunchScreen.storyboard */; };
 		1F2A57CA1C50C127009C810B /* WebviewExampleTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1F2A57C91C50C127009C810B /* WebviewExampleTests.swift */; };
 		1F2A57D51C50C127009C810B /* WebviewExampleUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1F2A57D41C50C127009C810B /* WebviewExampleUITests.swift */; };
+		1F2A58E91C50C3F1009C810B /* FLUIWebView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1F2A58E61C50C3F1009C810B /* FLUIWebView.swift */; };
+		1F2A58EA1C50C3F1009C810B /* FLWebViewProvider.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1F2A58E71C50C3F1009C810B /* FLWebViewProvider.swift */; };
+		1F2A58EB1C50C3F1009C810B /* FLWKWebView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1F2A58E81C50C3F1009C810B /* FLWKWebView.swift */; };
+		1F2A597B1C50C8DF009C810B /* assets in Resources */ = {isa = PBXBuildFile; fileRef = 1F2A597A1C50C8DF009C810B /* assets */; };
+		1FA3A8B91C51FE6800A6A3AC /* WebviewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1FA3A8B81C51FE6800A6A3AC /* WebviewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -47,6 +52,11 @@
 		1F2A57D01C50C127009C810B /* WebviewExampleUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = WebviewExampleUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		1F2A57D41C50C127009C810B /* WebviewExampleUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WebviewExampleUITests.swift; sourceTree = "<group>"; };
 		1F2A57D61C50C127009C810B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		1F2A58E61C50C3F1009C810B /* FLUIWebView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FLUIWebView.swift; sourceTree = "<group>"; };
+		1F2A58E71C50C3F1009C810B /* FLWebViewProvider.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FLWebViewProvider.swift; sourceTree = "<group>"; };
+		1F2A58E81C50C3F1009C810B /* FLWKWebView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FLWKWebView.swift; sourceTree = "<group>"; };
+		1F2A597A1C50C8DF009C810B /* assets */ = {isa = PBXFileReference; lastKnownFileType = folder; path = assets; sourceTree = "<group>"; };
+		1FA3A8B81C51FE6800A6A3AC /* WebviewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = WebviewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -81,6 +91,7 @@
 				1F2A57C81C50C127009C810B /* WebviewExampleTests */,
 				1F2A57D31C50C127009C810B /* WebviewExampleUITests */,
 				1F2A57B21C50C127009C810B /* Products */,
+				1F2A597A1C50C8DF009C810B /* assets */,
 			);
 			sourceTree = "<group>";
 		};
@@ -97,8 +108,12 @@
 		1F2A57B31C50C127009C810B /* WebviewExample */ = {
 			isa = PBXGroup;
 			children = (
+				1F2A58E71C50C3F1009C810B /* FLWebViewProvider.swift */,
+				1F2A58E61C50C3F1009C810B /* FLUIWebView.swift */,
+				1F2A58E81C50C3F1009C810B /* FLWKWebView.swift */,
 				1F2A57B41C50C127009C810B /* AppDelegate.swift */,
 				1F2A57B61C50C127009C810B /* ViewController.swift */,
+				1FA3A8B81C51FE6800A6A3AC /* WebviewController.swift */,
 				1F2A57B81C50C127009C810B /* Main.storyboard */,
 				1F2A57BB1C50C127009C810B /* Assets.xcassets */,
 				1F2A57BD1C50C127009C810B /* LaunchScreen.storyboard */,
@@ -230,6 +245,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				1F2A57BF1C50C127009C810B /* LaunchScreen.storyboard in Resources */,
+				1F2A597B1C50C8DF009C810B /* assets in Resources */,
 				1F2A57BC1C50C127009C810B /* Assets.xcassets in Resources */,
 				1F2A57BA1C50C127009C810B /* Main.storyboard in Resources */,
 			);
@@ -256,8 +272,12 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				1F2A58EA1C50C3F1009C810B /* FLWebViewProvider.swift in Sources */,
+				1FA3A8B91C51FE6800A6A3AC /* WebviewController.swift in Sources */,
 				1F2A57B71C50C127009C810B /* ViewController.swift in Sources */,
+				1F2A58EB1C50C3F1009C810B /* FLWKWebView.swift in Sources */,
 				1F2A57B51C50C127009C810B /* AppDelegate.swift in Sources */,
+				1F2A58E91C50C3F1009C810B /* FLUIWebView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -484,6 +504,7 @@
 				1F2A57DB1C50C127009C810B /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		1F2A57DC1C50C127009C810B /* Build configuration list for PBXNativeTarget "WebviewExampleTests" */ = {
 			isa = XCConfigurationList;
@@ -492,6 +513,7 @@
 				1F2A57DE1C50C127009C810B /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		1F2A57DF1C50C127009C810B /* Build configuration list for PBXNativeTarget "WebviewExampleUITests" */ = {
 			isa = XCConfigurationList;
@@ -500,6 +522,7 @@
 				1F2A57E11C50C127009C810B /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
