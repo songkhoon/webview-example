@@ -19,6 +19,7 @@
 		1F2A58EB1C50C3F1009C810B /* FLWKWebView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1F2A58E81C50C3F1009C810B /* FLWKWebView.swift */; };
 		1F2A597B1C50C8DF009C810B /* assets in Resources */ = {isa = PBXBuildFile; fileRef = 1F2A597A1C50C8DF009C810B /* assets */; };
 		1FA3A8B91C51FE6800A6A3AC /* WebviewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1FA3A8B81C51FE6800A6A3AC /* WebviewController.swift */; };
+		1FE807621C58CE5B0001537E /* LocalStorageTest.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1FE807611C58CE5B0001537E /* LocalStorageTest.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -57,6 +58,7 @@
 		1F2A58E81C50C3F1009C810B /* FLWKWebView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FLWKWebView.swift; sourceTree = "<group>"; };
 		1F2A597A1C50C8DF009C810B /* assets */ = {isa = PBXFileReference; lastKnownFileType = folder; path = assets; sourceTree = "<group>"; };
 		1FA3A8B81C51FE6800A6A3AC /* WebviewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = WebviewController.swift; sourceTree = "<group>"; };
+		1FE807611C58CE5B0001537E /* LocalStorageTest.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LocalStorageTest.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -118,6 +120,7 @@
 				1F2A57BB1C50C127009C810B /* Assets.xcassets */,
 				1F2A57BD1C50C127009C810B /* LaunchScreen.storyboard */,
 				1F2A57C01C50C127009C810B /* Info.plist */,
+				1FE807611C58CE5B0001537E /* LocalStorageTest.swift */,
 			);
 			path = WebviewExample;
 			sourceTree = "<group>";
@@ -275,6 +278,7 @@
 				1F2A58EA1C50C3F1009C810B /* FLWebViewProvider.swift in Sources */,
 				1FA3A8B91C51FE6800A6A3AC /* WebviewController.swift in Sources */,
 				1F2A57B71C50C127009C810B /* ViewController.swift in Sources */,
+				1FE807621C58CE5B0001537E /* LocalStorageTest.swift in Sources */,
 				1F2A58EB1C50C3F1009C810B /* FLWKWebView.swift in Sources */,
 				1F2A57B51C50C127009C810B /* AppDelegate.swift in Sources */,
 				1F2A58E91C50C3F1009C810B /* FLUIWebView.swift in Sources */,
