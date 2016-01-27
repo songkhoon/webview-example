@@ -31,7 +31,7 @@
             function call_native () {
                 var prop = selection.val();
                 set_headline("asked for " + prop + "...");
-                window.webkit.messageHandlers.observe.postMessage(prop);
+                window.webkit.messageHandlers.NAME.postMessage(prop);
             }
             setTimeout(call_native, 1000);
             selection.on("change", call_native);

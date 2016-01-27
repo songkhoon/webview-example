@@ -20,7 +20,7 @@ class ViewController: UIViewController, UIWebViewDelegate, WKNavigationDelegate,
         
         let wkEnabled = true
         let theConfiguration = WKWebViewConfiguration()
-        theConfiguration.userContentController.addScriptMessageHandler(self, name: "interOp")
+        theConfiguration.userContentController.addScriptMessageHandler(self, name: "NAME")
 
         // Check if WKWebView is available
         if (wkEnabled && NSClassFromString("WKWebView") != nil) {
@@ -49,12 +49,18 @@ class ViewController: UIViewController, UIWebViewDelegate, WKNavigationDelegate,
     }
     
     func userContentController(userContentController: WKUserContentController, didReceiveScriptMessage message: WKScriptMessage) {
-        let sentData = message.body as! NSDictionary
-        let index:Int = Int(sentData["index"] as! NSNumber)
-        screenLabel.text = String(index)
-        print(index)
+        if let sentData = message.body as? NSDictionary {
+            let index:Int = Int(sentData["index"] as! NSNumber)
+            let message = sentData["messsage"] as! String
+            print(String(index) + message)
+        }
+        
+        if let sentData = message.body as? String {
+            print(sentData)
+        }
+        
         let param = "hello javascript"
-        self.flWebView!.flEvaluateJavaScript("alert('\(param)')", completionHandler: {(result, error) -> Void in
+        self.flWebView!.flEvaluateJavaScript("callFromNative('\(param)')", completionHandler: {(result, error) -> Void in
             print("userContentController \(result) \(error)")
         })
     }

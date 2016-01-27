@@ -1,10 +1,10 @@
-$(function() {
-  function showMessage (messsage) {
+function showMessage (messsage) {
     alert(message);
     return message;
-  }
-  window.showMessage = showMessage;
-  
+}
+window.showMessage = showMessage;
+
+$(function() {
 	var Frames = {
 		body: $('body'),
 		frames: $('#frames'),
@@ -61,7 +61,7 @@ $(function() {
 			self.islands[0].style.webkitTransform = 'translateX(-' + (self.index * self.slideWidth) + 'px)';
   
             var message = { "index":self.index };
-            window.webkit.messageHandlers.interOp.postMessage(message);
+            window.webkit.messageHandlers.NAME.postMessage(message);
 		},
 
 		slideStart: function(event) {
