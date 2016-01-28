@@ -4,6 +4,11 @@
 <dict>
 	<key>SchemeUserState</key>
 	<dict>
+		<key>CustomURLScheme.xcscheme</key>
+		<dict>
+			<key>orderHint</key>
+			<integer>1</integer>
+		</dict>
 		<key>WebviewExample.xcscheme</key>
 		<dict>
 			<key>orderHint</key>
@@ -23,6 +28,36 @@
 			<true/>
 		</dict>
 		<key>1F2A57CF1C50C127009C810B</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>1F4A17EE1C59FEE700B4DE49</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>1F4A18011C59FEE700B4DE49</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>1F4A180C1C59FEE800B4DE49</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>1FD6623D1C59E35F002551BD</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>1FD662501C59E360002551BD</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>1FD6625B1C59E360002551BD</key>
 		<dict>
 			<key>primary</key>
 			<true/>
