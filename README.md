@@ -1,5 +1,3 @@
-[faq] (http://compass-interactive.io/iOS-development/webview-example/wikis/faq)
-
-[javascript integration] (http://compass-interactive.io/iOS-development/webview-example/wikis/javascript-integration)
-
-[custom url schemes] (http://compass-interactive.io/iOS-development/webview-example/wikis/custom-url-schemes)
+# Webview Example on iOS
+*  An example to test the performance of WKWebView and UIWebView.
+*  Create a bridge to communicate between Javascript and Swift
